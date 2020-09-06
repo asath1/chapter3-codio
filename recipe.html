@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>My Recipe</title>
+      <link rel="stylesheet" href="./recipe.css">
+    </head>
+    <body>
+      <h1>How to Make Strawberry Banana Smoothie</h1>
+      <script>
+          let ingredients = ["Strawberry", "Milk", "Banana", "Suger", "Ice"]
+          let steps = ["Put your strawberry and banana in the brender", "Add half a cup of choice of your milk", "Add suger if you want", "Add one cup of ice", "Blend...", "WAAA-LAA your delicious smoothie is ready to drink"]
+          document.write("<p><b>Desicription:</b> Nothing is better than some quick healthy yet yummy smoothie in the morning. People of all ages would like this recipe.</p>")
+
+          document.write("<p><b>List of Ingredients:</b></p>")
+          document.write("<ul>")
+          for (i=0; i < ingredients.length ; i++) {
+            document.write("<li>" + ingredients[i] + "</li>")
+          }
+          document.write("</ul>")
+          document.write("<p><b>Follow Below Steps:</b></p>")
+          document.write("<ol>")
+          for (i=0; i < steps.length ; i++) {
+            document.write("<li>" + steps[i] + "</li>")
+          }
+          document.write("</ol>")
+          
+      </script>
+      <img src="./smoothie.png" alt="smoothie" style="float: right;" height="400">
+    </body>
+  </html>
